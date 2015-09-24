@@ -23,6 +23,7 @@ function docdown(options) {
     'lang': 'js',
     'sort': true,
     'title': path.basename(options.path) + ' API documentation',
+    'sort': true,
     'toc': 'properties'
   });
 
