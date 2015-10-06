@@ -24,7 +24,6 @@ function docdown(options) {
     'sort': true,
     'title': path.basename(options.path) + ' API documentation',
     'sort': true,
-    'toc': 'properties'
   });
 
   if (!options.path || !options.url) {
